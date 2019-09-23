@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3a7dad;">
+    <a class="navbar-brand" href="#" style="color: white"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home" style="color: white">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#speaker" style="color: white">About the Speaker</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#abstract" style="color: white">Abstract</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#abstract" style="color: white">Event Details</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid" >
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="nitk.png" style="height:12vh">
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="nitte-eng.png" style="width:50%;height: 10vh;">
+      </div>
+    </div>
+    <div class="container text-center">
+      <img src="acmlogo1.png" align="middle;" class="rounded" style="width:200px;height:200px;">
+    </div>
+    <div class="container text-center" style="margin-top: 4%">
+      <h3 class="display-4">Fake Content, Manipulated Accounts, Chatbots, and KillFies on Social Media </h3>
+      <p class="lead">A talk by Dr. Ponnurangan Kumaragaru</p>
+    </div>
+  </div>
+
+  <div id='speaker' class="jumbotron jumbotron-fluid" style="background-color: white">
+
+    <div class="text-center" style="margin-bottom: 2%">
+      <img src="pk.jpg" class="rounded" style="height:30vh;margin-bottom:2%">
+      <div class="container">
+        <h5 class='display-5'>Ponnurangam Kumaragaru</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card bg-info" style="color: white">
+        <div class="container">
+          <div class="text-center">
+            <h4 class="card-title" style="margin-top: 1%;">About the Speaker</h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="text-center">
+            <p class="card-text" style="margin-bottom:1%">Prof. Ponnurangam Kumaraguru ("PK") is an Associate Professor
+              of Computer Science and
+              Associate Dean of Students Affairs at IIIT-Delhi. He is an Adjunct faculty at IIIT Hyderabad. PK is a TEDx
+              and an ACM Distinguished & ACM India Eminent Speaker. PK received his Ph.D. from the School of Computer
+              Science at Carnegie Mellon University (CMU). His Ph.D. thesis work on anti-phishing research at CMU
+              contributed in creating an award-winning startup - Wombat Security Technologies, wombatsecurity.com.
+              Wombat
+              was acquired in March 2018 for USD 225 Million. In addition to his contributions to academia, PK is on
+              advisory role on various government organizations and a Fortune 500 company. He is also part of various
+              Board of Studies of different academic institutes across the country. He has co-authored research papers
+              in
+              the field of Privacy and Security in Online Social Media, Cyber Security, Computational Social Science,
+              Social Computing, Data Science for Social Good, amongst others. He is passionate about solving societal
+              problems using technologies, especially contributing to the domain of social computing. PK and his
+              students
+              have played an integral role in developing a technology used many State and Central Government agencies in
+              India. He has spent time making notable contributions at organizations like IBM India Research Labs, Adobe
+              Research Labs – India, Universidade Federal de Minas Gerais (UFMG) – Brazil, and Max Planck Institute for
+              Software Systems – Germany. PK has served as a Program Committee member at prestigious conferences like
+              WWW,
+              CHI, PETs, ICWSM, CSCW, AsiaCCS. He was the Founding Head of Cybersecurity Education and Research Centre
+              (CERC) at IIIT-Delhi. PK started and successfully manages PreCog (precog.iiitd.edu.in), a research group
+              at
+              IIIT-Delhi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id='abstract' class="jumbotron jumbotron-fluid" >
+    <div class="container">
+      <div class="jumbotron">
+      <div class="card bg-info" style="color:white" >
+        <div class="container text-center" style="margin-right: 2%;margin-bottom: 2%;margin-top: 2%;">
+          <h5 class="card-title">Abstract</h5>
+
+          <p class="card-text">With increase in usage of the Internet, there has been an exponential increase in the use
+            of online social media on the Internet. Websites like Facebook, Instagram, Twitter, Tinder, YouTube, and
+            many others have changed the way the Internet is being used. There is a dire need to investigate, measure,
+            and understand privacy and security on online social media from various perspectives (computational,
+            cultural, psychological). Real world scalable systems need to be built to detect and defend security and
+            privacy issues on online social media. I will describe briefly some cool projects that we work on:
+            (Mis)Information / Fake content on Twitter, Facebook, and WhatsApp; Linking profiles across different social
+            networks; Selfie deaths and KillFies; and Manipulated followers. Many of our research work is made available
+            for public use through tools or online services at precog.iiitd.edu.in including datasets that we have used
+            in our research work. Our work derives techniques from Computational Social Science, Data Science,
+            Statistics, and Network Science. I will be more than happy to clarify, discuss, any of our work in detail,
+            as required, after the talk</p>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron">
+
+      <div class="card bg-info" style="color:white" >
+        <div class="container text-center" style="margin: 2%">
+          <div class="card-body">
+            <h5 class="card-title">Details</h5>
+            <p class="card-text">Place:TBD </p>
+            <p class="card-text">Date: 25th Sept </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
